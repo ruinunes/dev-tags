@@ -3,8 +3,8 @@ dev-tags
 
 Angular directives for quick data output.
 
-*List*
+__List__
 
-
-````<dev-list dataset="yourArray" key="yourArrayKey">
+````
+<dev-list dataset="yourArray" key="yourArrayKey">
 ````
