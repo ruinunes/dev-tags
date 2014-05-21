@@ -1,7 +1,7 @@
 /*global angular:false */
 'use strict';
 
-var myApp = angular.module('myApp',[]);
+var myApp = angular.module('myApp',['devTags']);
 
 myApp.controller('controllerMain', function($scope) {
 

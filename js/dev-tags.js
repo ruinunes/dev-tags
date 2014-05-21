@@ -1,4 +1,6 @@
-myApp.directive('devList', function($compile) {
+var devTags = angular.module('devTags',[])
+
+devTags.directive('devList', function($compile) {
 
   var getTemplate = function(value) {
     if(value === '' || value == undefined){
