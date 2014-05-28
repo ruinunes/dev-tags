@@ -1,24 +1,28 @@
 /*global angular:false */
-'use strict';
 
-var myApp = angular.module('myApp',['devTags']);
+(function(){
+  'use strict';
 
-myApp.controller('controllerMain', function($scope) {
+  var myApp = angular.module('myApp',['devTags']);
 
-  $scope.heros = [
-    {name:'Iron Man'},
-    {name:'The Hulk'},
-    {name:'Thor'},
-    {name:'Captain'}
-  ];
+  myApp.controller('controllerMain', function($scope) {
 
-  $scope.villains = [
-    {name:'Loki'},
-    {name:'Red Skull'},
-    {name:'The Winter Soldier'},
-    {name:'Mandarin'},
-    {name:'Ultron'},
-    {name:'Thanos'}
-  ];
+    $scope.heros = [
+      {name:'Iron Man'},
+      {name:'The Hulk'},
+      {name:'Thor'},
+      {name:'Captain'}
+    ];
 
-});
+    $scope.villains = [
+      {name:'Loki'},
+      {name:'Red Skull'},
+      {name:'The Winter Soldier'},
+      {name:'Mandarin'},
+      {name:'Ultron'},
+      {name:'Thanos'}
+    ];
+
+  });
+})();
+
